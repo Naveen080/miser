@@ -7,7 +7,8 @@ import org.springframework.boot.test.context.SpringBootTest;
 class DemoApplicationTests {
 
 	@Test
-	void contextLoads() {
+	public String contextLoads() {
+		return "Hello Docker World";
 	}
 
 }
